@@ -6,33 +6,7 @@ A comprehensive Tableau dashboard project featuring dynamic Sales and Customer a
 
 This project contains interactive Tableau dashboards designed to analyze sales performance, customer behavior, and business metrics. The dashboards are built with dynamic filtering capabilities and support multiple regional datasets (EU and Non-EU).
 
-## 📁 Project Structure
-
-```
-Sales Dashboard Materials/
-│
-├── Dashboard Icons/                    # Custom icons for dashboard navigation
-│   ├── Icon - Customer Dashboard (active).png
-│   ├── Icon - Customer Dashboard.png
-│   ├── Icon - Filter Hidden.png
-│   ├── Icon - Filter Shown.png
-│   ├── Icon - Logo.png
-│   ├── Icon - Sales Dashboard.png
-│   └── Icon - Sales Dashboard(active).png
-│
-├── EU-Dataset/                        # European dataset (comma-separated decimals)
-│   ├── Customers.csv                  # Customer master data
-│   ├── Location.csv                   # Geographic location data
-│   ├── Orders.csv                     # Order transaction data
-│   └── Products.csv                   # Product catalog
-│
-├── Non-EU Dataset/                     # Non-European dataset (period-separated decimals)
-│   ├── Customers.csv                  # Customer master data
-│   ├── Location.csv                   # Geographic location data
-│   ├── Orders.csv                     # Order transaction data
-│   └── Products.csv                   # Product catalog
-│
-└── Sales & Customer Dashboards (Dynamic).twbx    # Main Tableau workbook
+Sales & Customer Dashboards (Dynamic).twbx    # Main Tableau workbook
 ```
 
 
@@ -103,9 +77,8 @@ Sales Dashboard Materials/
    - Navigate to `File > Open`
    - Select `Sales & Customer Dashboards (Dynamic).twbx`
 
-4. **Connect to data sources** (if needed):
-   - The workbook should already have data connections configured
-   - If data sources need to be updated, right-click on data sources in the left panel and select "Edit Data Source"
-   - Point to the appropriate CSV files in either `EU-Dataset/` or `Non-EU Dataset/` folders
+4. **Access online**:
+  - Use this link to access the dashboard online (https://public.tableau.com/app/profile/sohaib.chachar/viz/SalesCustomerDashboardsDynamic_17630694167460/SalesDashboard)
+
 
 
